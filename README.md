@@ -1,1 +1,1 @@
-# vanilla_javascript_practice
+# Practicing Javascript
