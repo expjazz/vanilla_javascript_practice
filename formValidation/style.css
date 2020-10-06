@@ -11,13 +11,30 @@ body {
   font-size: 1.6rem;
   font-family: 'Poppins', sans-serif;
   color: white;
-  /* max-width: 1400px; */
-  width: 100vw;
+  max-width: 1200px;
+  width: 100%;
   height: 100vh;
   padding: 10rem;
   background: hsl(0, 100%, 74%);
   background-image: url('images/bg-intro-desktop.png');
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+.hero-header {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.hero-desc {
+  font-size: 4rem;
+  line-height: 1.4;
+  padding: 2rem 0;
 }
