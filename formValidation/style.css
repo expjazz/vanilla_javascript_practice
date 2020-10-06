@@ -25,10 +25,10 @@ body {
 .hero {
   display: flex;
   flex-direction: column;
-  padding: 4rem;
+  width: 70%;
 }
 .hero-header {
-  font-size: 6rem;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 1.5;
 }
@@ -37,4 +37,15 @@ body {
   font-size: 4rem;
   line-height: 1.4;
   padding: 2rem 0;
+}
+
+.try-button {
+  background-color: hsl(248, 32%, 49%);  
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1rem 0rem;
+  outline: none;
+  border: none;
+
 }
