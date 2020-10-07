@@ -8,10 +8,12 @@ form.addEventListener('click', function (e) {
     let error = input.parentNode.nextElementSibling;
 
     if (!input.checkValidity()) {
+      console.log(input.validationMessage)
       input.classList.add('warning');
-      error.innerText = `${input.id} cannot be empty `;
+      error.innerText = input.validationMessage
     } else {
       input.classList.remove('warning');
+      error.innerText = ''
     }
   });
   //   inputs.forEach();
